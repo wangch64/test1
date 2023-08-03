@@ -10,7 +10,7 @@ int main(void) {
 	PWverify = IsPasswordValid();
 	if (!PWverify) {
 		puts("Password Error!! Please try again.");
-		return 1;
+		return 0;
 	}
 	else puts("Welcome. Your password is correct.");
 	return 0;
